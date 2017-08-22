@@ -1,0 +1,86 @@
+.quote-container {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.btn {
+  width: 100%;
+  height: 55px;
+}
+
+#mitch {
+  display: none;
+}
+
+#mobile-only-tweet-button {
+  margin-top: 3%;
+  float: right;
+}
+
+#mobile-only-tweet-button button {
+  margin-left: 5px;
+  background-color: #4099FF;
+  color: white;
+  width: 70px;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+@media (min-width: 750px) {
+
+  body {
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  h1 {
+    display:none;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .container div {
+  	width: 100%;
+    height: 100%;
+  }
+
+  .quote-container {
+    margin-top: 2%;
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 2%;
+    opacity: 0.9;
+  }
+
+  #quote {
+    margin-bottom: -1.5%;
+  }
+
+  #mitch {
+    display: block;
+  }
+
+  #mitch a {
+    padding-left: 15px;
+  }
+
+  .btn {
+    font-size: 20px;
+    margin-top: 4%;
+    height: 50px;
+    background-color: #A7BFFE;
+    width: 100%;
+  }
+
+  #mobile-only-tweet-button {
+    display: none;
+  }
+
+}
